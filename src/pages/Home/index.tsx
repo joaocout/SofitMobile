@@ -6,7 +6,7 @@ import { styles } from './styles';
 const Home = () => {
   return (
     <View style={styles.container}>
-      <Text>alksjdhaslkdjh</Text>
+      <Text>Home</Text>
     </View>
   );
 };
