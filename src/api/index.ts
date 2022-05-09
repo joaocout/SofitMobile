@@ -2,8 +2,9 @@ import axios from 'axios';
 
 import type { Expense } from '../shared/types';
 
-const token =
-  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImpvYW9wZWRybzA4MDFAaG90bWFpbC5jb20iLCJpYXQiOjE2NTE5NDA0MjZ9.nWA5OCLmGUtgYRYTrl98S4oJwKeIHnosBIwGjh5p-BQ';
+import { API_TOKEN } from 'react-native-dotenv';
+
+const token = API_TOKEN;
 
 axios.defaults.baseURL =
   'https://sofit-mobile-challenge.herokuapp.com/expenses';
